@@ -7,4 +7,9 @@ chapters:
 - file: markdown
 - file: notebooks
 - file: markdown-notebooks
-- file: mymarkdownfile
+- file: cumulative_layout_shift
+- file: first_contentful_paint
+- file: first_input_delay
+- file: interaction_to_next_paint
+- file: largest_contentful_paint
+- file: time_to_first_byte
