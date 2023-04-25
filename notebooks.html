@@ -66,8 +66,6 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
-    <link rel="prev" title="Markdown Files" href="markdown.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -154,14 +152,11 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    CrUX History API
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+        <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cumulative_layout_shift.html">Cumulative layout shift (CLS)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="first_contentful_paint.html">First Contentful Paint (FCP)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="first_input_delay.html">First Input Delay (FID)</a></li>
@@ -475,7 +470,7 @@ For example, here’s some sample Matplotlib code:</p>
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">][</span><span class="mi">3</span><span class="p">])</span>
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">:</span>
-        <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;center right&#39;</span><span class="p">,</span> <span class="n">facecolor</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">][</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">][</span><span class="mi">4</span><span class="p">][</span><span class="mi">1</span><span class="p">]))</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;center right&#39;</span><span class="p">,</span> <span class="n">facecolor</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">][</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">][</span><span class="mi">4</span><span class="p">][</span><span class="mi">1</span><span class="p">]),</span> <span class="n">title</span><span class="o">=</span><span class="n">plot_labels</span><span class="p">[</span><span class="n">md</span><span class="p">][</span><span class="mi">3</span><span class="p">])</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;./_build/html/_images/</span><span class="si">{</span><span class="n">md</span><span class="si">}</span><span class="s1">.png&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -485,7 +480,7 @@ For example, here’s some sample Matplotlib code:</p>
 <img alt="_images/4e51159964c58c5602a47a0ce0687825d8858f2ba64a266297beac4be3880ee4.png" src="_images/4e51159964c58c5602a47a0ce0687825d8858f2ba64a266297beac4be3880ee4.png" />
 <img alt="_images/1193fde8032dca2be7b651a9f6a751bb0b6a52a870fca61027daa81555e2c3c3.png" src="_images/1193fde8032dca2be7b651a9f6a751bb0b6a52a870fca61027daa81555e2c3c3.png" />
 <img alt="_images/0c06d14f27dd50a9fdd5c34f1f0b943cab765e668af06cadd07d892dbd4c7853.png" src="_images/0c06d14f27dd50a9fdd5c34f1f0b943cab765e668af06cadd07d892dbd4c7853.png" />
-<img alt="_images/b8fb6cf8318dd83b4fd1a7a19b8c4f78678ed98d89fcdba6707b6aa49f81788d.png" src="_images/b8fb6cf8318dd83b4fd1a7a19b8c4f78678ed98d89fcdba6707b6aa49f81788d.png" />
+<img alt="_images/bab3ffbd3abf4f921a0e2b7d1cca1c9f7500d248ca08e5b5debcc61893c5c607.png" src="_images/bab3ffbd3abf4f921a0e2b7d1cca1c9f7500d248ca08e5b5debcc61893c5c607.png" />
 <img alt="_images/049c9e1c757c21a7e102c43b9cb4a2743f90a62abf75e158ef503c6bb698b8f8.png" src="_images/049c9e1c757c21a7e102c43b9cb4a2743f90a62abf75e158ef503c6bb698b8f8.png" />
 </div>
 </div>
@@ -525,24 +520,6 @@ with your book. For more information about this, see <a class="reference externa
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="markdown.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Markdown Files</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="markdown-notebooks.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Notebooks with MyST Markdown</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div></div>
   
 </div>
