@@ -10,4 +10,4 @@ A burst of layout shifts, known as a session window, is when one or more individ
 The largest burst is the session window with the maximum cumulative score of all layout shifts within that window.
 
 
-![figure](cls.png)
+![figure](cumulative_layout_shift.png)

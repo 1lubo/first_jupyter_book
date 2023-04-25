@@ -9,4 +9,4 @@ TTFB is the sum of the following request phases:
 * Connection and TLS negotiation
 * Request, up until the point at which the first byte of the response has arrived
 
-![figure](ttfb.png)
+![figure](experimental_time_to_first_byte.png)
