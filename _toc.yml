@@ -4,9 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
 - file: cumulative_layout_shift
 - file: first_contentful_paint
 - file: first_input_delay
